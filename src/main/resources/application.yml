@@ -1,0 +1,10 @@
+# Enable CORS globally for all endpoints
+spring:
+  mvc:
+    cors:
+      allowed-origins: "*"
+      allowed-methods: GET, POST, PUT, DELETE, OPTIONS
+      allowed-headers: "*"
+      allow-credentials: true
+
+      
